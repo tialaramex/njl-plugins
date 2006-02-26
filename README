@@ -1,0 +1,9 @@
+These are LADSPA plugins, you also need at least one LADSPA host to make
+use of this software. A description of each plugin is included in the file
+PLUGINS, and a simple Makefile is included to build (but not yet install)
+all of the plugins.
+
+See http://www.ladspa.org/ and http://plugins.org.uk/ for more information
+about LADSPA (the Linux Audio Developer's Simple Plugin API) and for a
+much broader variety of plugins.
+

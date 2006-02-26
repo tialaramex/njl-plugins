@@ -1,0 +1,18 @@
+
+noise_1921.so
+1921 IEEE Single Precision Noise
+  Sign, Mantissa and Exponent are fed by a pseudo-random number generator
+  resulting in a sort of crackling white noise with 0dB peak amplitude.
+
+noise_1922.so
+1922 Integer Noise
+  White noise with variable precision from a pseudo-random number generator
+
+eir_1923.so
+1923 Experiments in Representation
+  Simulate half-precision floating point and other representations
+
+risset_1924.so
+1924 Continuos Risset Scales
+  Popular aural illusion in which a sound appears to continuously increase
+  (or decrease) in pitch.
