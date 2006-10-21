@@ -1,5 +1,5 @@
 /*  noise_1922 - Integer Noise
-    Copyright (C) 2002-2005  Nick Lamb <njl195@zepler.org.uk>
+    Copyright (C) 2002-2005  Nick Lamb <njl+ladspa@filter.tlrmx.org>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -58,7 +58,7 @@ static LADSPA_Descriptor descriptors[] =
   "intNoise",
   LADSPA_PROPERTY_HARD_RT_CAPABLE,
   "Integer Noise",
-  "Nick Lamb <njl195@zepler.org.uk>",
+  "Nick Lamb <njl+ladspa@filter.tlrmx.org>",
   "GPL 2002-2005",
   sizeof(port_descriptor) / sizeof(LADSPA_PortDescriptor),
   port_descriptor,

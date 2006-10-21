@@ -1,5 +1,5 @@
 /*  risset_1924 - Continuous Risset Scales
-    Copyright (C) 2002-2005  Nick Lamb <njl195@zepler.org.uk>
+    Copyright (C) 2002-2005  Nick Lamb <njl+ladspa@filter.tlrmx.org>
 
     Thanks to Steve Harris for speed-ups and other tweaks
 
@@ -82,7 +82,7 @@ static LADSPA_Descriptor descriptors[] =
   "rissetScales",
   LADSPA_PROPERTY_HARD_RT_CAPABLE,
   "Continuous Risset Scales",
-  "Nick Lamb <njl195@zepler.org.uk>",
+  "Nick Lamb <njl+ladspa@filter.tlrmx.org>",
   "GPL 2002-2005",
   sizeof(port_descriptor) / sizeof(LADSPA_PortDescriptor),
   port_descriptor,
