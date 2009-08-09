@@ -113,7 +113,7 @@ static LADSPA_Handle instantiate(const LADSPA_Descriptor * Descriptor,
                                 unsigned long SampleRate)
 {
   struct io* data = calloc(sizeof(struct io), 1);
-  float *tbl = malloc(sizeof(float) * TBL_SIZE + 1);
+  float *tbl = malloc(sizeof(float) * (TBL_SIZE + 1));
   int i;
 
   data->rate = (float) SampleRate;
